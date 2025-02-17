@@ -6,6 +6,8 @@ import MyButton  from './MyButton';
 import AboutPage from './AboutPage';
 import CatImage from './image.png';
 import ProfileCat from './ProfileCat';
+import ConditionalRendering from './ConditionalRendering';
+import WelcomePage from './WelcomePage';
 
 
 function App() {
@@ -16,10 +18,13 @@ function App() {
     <>
     {/* <h2>Welcome to my app</h2> */}
       {/* <button>I'm a button</button> */}
-      <MyButton />
+      {/* <MyButton />
       <AboutPage />
 	<img src={CatImage}  className="avatar" />
-	<ProfileCat />
+	<ProfileCat /> */}
+  
+  <WelcomePage />
+  
     </>
   )
 }
