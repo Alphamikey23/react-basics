@@ -1,4 +1,4 @@
-function MyButton() {
+export default function MyButton() {
     return(
         <>
         <h2>Welcome to my app</h2>
@@ -7,4 +7,3 @@ function MyButton() {
     )
 }
 
-export default MyButton();
