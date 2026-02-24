@@ -10,6 +10,7 @@ import ConditionalRendering from './ConditionalRendering';
 import WelcomePage from './WelcomePage';
 import RenderingLists from './RenderingLists';
 import RespondingEvents from './RespondingEvents';
+import UpdatingScreen from './UpdatingScreen';
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
   {/* <h1 className="welcome"> Hi, Welcome to react styling, This test should be red</h1> */}
   {/* <WelcomePage /> */}
   {/* <RenderingLists /> */}
-  <RespondingEvents />
+  {/* <RespondingEvents /> */}
+  <UpdatingScreen />
   
     </>
   )
