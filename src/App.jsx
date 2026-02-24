@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import MyButton  from './MyButton';
 import AboutPage from './AboutPage';
+import CatImage from './image.png';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       {/* <button>I'm a button</button> */}
       <MyButton />
       <AboutPage />
+	<img src={CatImage}  className="avatar" />
     </>
   )
 }
