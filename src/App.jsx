@@ -5,7 +5,7 @@ import './App.css'
 import MyButton  from './MyButton';
 import AboutPage from './AboutPage';
 import CatImage from './image.png';
-
+import ProfileCat from './ProfileCat';
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
       <MyButton />
       <AboutPage />
 	<img src={CatImage}  className="avatar" />
+	<ProfileCat />
     </>
   )
 }
