@@ -14,7 +14,11 @@ import UpdatingScreen from './UpdatingScreen';
 
 
 function App() {
-  const [count, setCount] = useState(0);
+
+  const [count,setCount] = useState(0);
+    function handleClick() {
+        setCount(count+1);
+    }
 
 
   return (
@@ -29,7 +33,10 @@ function App() {
   {/* <WelcomePage /> */}
   {/* <RenderingLists /> */}
   {/* <RespondingEvents /> */}
-  <UpdatingScreen />
+  {/* <UpdatingScreen /> */}
+  <h1> Sharing data between components</h1>
+  <MyButton onClick={handleClick} count={count} />
+  <MyButton onClick={handleClick} count={count}/>
   
     </>
   )
