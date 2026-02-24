@@ -8,6 +8,7 @@ import CatImage from './image.png';
 import ProfileCat from './ProfileCat';
 import ConditionalRendering from './ConditionalRendering';
 import WelcomePage from './WelcomePage';
+import RenderingLists from './RenderingLists';
 
 
 function App() {
@@ -22,8 +23,9 @@ function App() {
       <AboutPage />
 	<img src={CatImage}  className="avatar" />
 	<ProfileCat /> */}
-  
-  <WelcomePage />
+  {/* <h1 className="welcome"> Hi, Welcome to react styling, This test should be red</h1> */}
+  {/* <WelcomePage /> */}
+  <RenderingLists />
   
     </>
   )
