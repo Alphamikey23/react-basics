@@ -13,6 +13,7 @@ import RespondingEvents from './RespondingEvents';
 import UpdatingScreen from './UpdatingScreen';
 import Html2jsx from './Html2jsx';
 import Bio from './Bio.jsx';
+import ClassComponent from './ClassComponent.jsx';
 
 
 function App() {
@@ -40,7 +41,8 @@ function App() {
   <MyButton onClick={handleClick} count={count} />
   <MyButton onClick={handleClick} count={count}/> */}
   {/* <Html2jsx /> */}
-  <Bio />
+  {/* <Bio /> */}
+  <ClassComponent />
     </>
   )
 }
