@@ -11,6 +11,8 @@ import WelcomePage from './WelcomePage';
 import RenderingLists from './RenderingLists';
 import RespondingEvents from './RespondingEvents';
 import UpdatingScreen from './UpdatingScreen';
+import Html2jsx from './Html2jsx';
+import Bio from './Bio.jsx';
 
 
 function App() {
@@ -34,10 +36,11 @@ function App() {
   {/* <RenderingLists /> */}
   {/* <RespondingEvents /> */}
   {/* <UpdatingScreen /> */}
-  <h1> Sharing data between components</h1>
+  {/* <h1> Sharing data between components</h1>
   <MyButton onClick={handleClick} count={count} />
-  <MyButton onClick={handleClick} count={count}/>
-  
+  <MyButton onClick={handleClick} count={count}/> */}
+  {/* <Html2jsx /> */}
+  <Bio />
     </>
   )
 }
